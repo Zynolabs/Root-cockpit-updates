@@ -1,0 +1,8 @@
+{
+  "mode": "remote",
+  "label": "Root Cockpit Mac mini tunnel",
+  "updatedAt": "2026-07-06T21:48:00.000Z",
+  "snapshotUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/snapshot",
+  "actionUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/actions/request",
+  "pollMs": 5000
+}
