@@ -1,11 +1,11 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-07T07:25:00.000Z",
+  "updatedAt": "2026-07-07T07:36:00.000Z",
   "snapshotUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/actions/request",
   "pollMs": 5000,
-  "latestVersion": "0.1.13",
+  "latestVersion": "0.1.14",
   "minimumVersion": "0.1.6",
   "updateRequiredMessage": "This Root Cockpit build is behind the live backend contract. Update before using the cockpit so UI actions, approvals, and backend state stay in sync.",
   "profileUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/profiles"
