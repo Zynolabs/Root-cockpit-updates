@@ -1,15 +1,15 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-07T16:04:00Z",
+  "updatedAt": "2026-07-07T16:56:16Z",
   "snapshotUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/actions/request",
   "pollMs": 5000,
-  "latestVersion": "0.1.17",
-  "minimumVersion": "0.1.17",
-  "updateRequiredMessage": "Root Cockpit 0.1.17 is required: Obsidian is now the primary realtime cockpit memory source, with Discord demoted to secondary signal.",
+  "latestVersion": "0.1.18",
+  "minimumVersion": "0.1.18",
+  "updateRequiredMessage": "Root Cockpit 0.1.18 is required: Obsidian powers the Memory panel, while the map shows only promoted operational objects. Discord remains secondary signal.",
   "profileUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/profiles",
-  "latest": "0.1.17",
-  "minimum": "0.1.17",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.17"
+  "latest": "0.1.18",
+  "minimum": "0.1.18",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.18"
 }
