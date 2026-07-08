@@ -1,15 +1,15 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-08T21:27:42.277882Z",
+  "updatedAt": "2026-07-08T21:35:00.899635Z",
   "snapshotUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/actions/request",
   "pollMs": 5000,
-  "latestVersion": "0.1.25",
-  "minimumVersion": "0.1.25",
-  "updateRequiredMessage": "Root Cockpit 0.1.25 is required: restores globe rotation and removes the SVG line artifact.",
+  "latestVersion": "0.1.26",
+  "minimumVersion": "0.1.26",
+  "updateRequiredMessage": "Root Cockpit 0.1.26 is required: restores WebGL manual globe rotation and zoom controls.",
   "profileUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/profiles",
-  "latest": "0.1.25",
-  "minimum": "0.1.25",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.25"
+  "latest": "0.1.26",
+  "minimum": "0.1.26",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.26"
 }
