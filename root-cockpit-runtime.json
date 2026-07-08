@@ -1,15 +1,15 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-08T20:54:41.031389Z",
+  "updatedAt": "2026-07-08T21:27:42.277882Z",
   "snapshotUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/actions/request",
   "pollMs": 5000,
-  "latestVersion": "0.1.24",
-  "minimumVersion": "0.1.24",
-  "updateRequiredMessage": "Root Cockpit 0.1.24 is required: zero-lag SVG Earth surface, no fake globe loading phases, and Windows/Mac updater payloads included.",
+  "latestVersion": "0.1.25",
+  "minimumVersion": "0.1.25",
+  "updateRequiredMessage": "Root Cockpit 0.1.25 is required: restores globe rotation and removes the SVG line artifact.",
   "profileUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/profiles",
-  "latest": "0.1.24",
-  "minimum": "0.1.24",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.24"
+  "latest": "0.1.25",
+  "minimum": "0.1.25",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.25"
 }
