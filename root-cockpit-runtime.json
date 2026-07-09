@@ -5,8 +5,8 @@
   "snapshotUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/actions/request",
   "pollMs": 5000,
-  "latestVersion": "0.1.35",
-  "minimumVersion": "0.1.35",
+  "latestVersion": "0.1.36",
+  "minimumVersion": "0.1.36",
   "updateRequiredMessage": "Root Cockpit 0.1.35 is required. This release updates the cockpit header to the official Zynolabs wordmark, restructures the User Manual, and smooths motion across the UI.",
   "profileUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/profiles",
   "latest": "0.1.35",
@@ -15,5 +15,5 @@
   "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.35/latest.json",
   "message": "Root Cockpit 0.1.35 is available: official Zynolabs header branding, section-based scrollable User Manual, and smoother cockpit motion.",
   "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.35/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.35/Root-Cockpit_0.1.35_aarch64.dmg"
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.36/Root-Cockpit_0.1.36_aarch64.dmg"
 }
