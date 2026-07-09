@@ -1,15 +1,15 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-08T21:44:30.761350Z",
+  "updatedAt": "2026-07-09T02:41:54.515365Z",
   "snapshotUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/actions/request",
   "pollMs": 5000,
-  "latestVersion": "0.1.27",
-  "minimumVersion": "0.1.27",
-  "updateRequiredMessage": "Root Cockpit 0.1.27 is required: real Earth texture, faster post-login globe load, no polygon land flicker.",
+  "latestVersion": "0.1.28",
+  "minimumVersion": "0.1.28",
+  "updateRequiredMessage": "Root Cockpit 0.1.28 is required: fullscreen Earth interface with floating feature deck cards.",
   "profileUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/profiles",
-  "latest": "0.1.27",
-  "minimum": "0.1.27",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.27"
+  "latest": "0.1.28",
+  "minimum": "0.1.28",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.28"
 }
