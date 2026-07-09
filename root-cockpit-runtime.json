@@ -7,11 +7,11 @@
   "pollMs": 5000,
   "latestVersion": "0.1.32",
   "minimumVersion": "0.1.32",
-  "updateRequiredMessage": "Root Cockpit 0.1.31 fixes saved-auth startup flicker, silent automatic update checks, and the Security password-save switch.",
+  "updateRequiredMessage": "Root Cockpit 0.1.32 is required. This release replaces the startup sequence with one full-screen space-flight boot into the globe, removes duplicate loading/login/update flicker, limits text selection to search, adds 12H/24H clock format, fixes Mission Brief toggle behavior, and corrects save-password switch visuals.",
   "profileUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/profiles",
-  "latest": "0.1.31",
-  "minimum": "0.1.31",
+  "latest": "0.1.32",
+  "minimum": "0.1.32",
   "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.32",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.31/latest.json",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.32/latest.json",
   "message": "Root Cockpit 0.1.32 is required. This release replaces the startup sequence with one full-screen space-flight boot into the globe, removes duplicate loading/login/update flicker, limits text selection to search, adds 12H/24H clock format, fixes Mission Brief toggle behavior, and corrects save-password switch visuals."
 }
