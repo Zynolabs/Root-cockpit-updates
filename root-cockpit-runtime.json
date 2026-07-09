@@ -7,9 +7,9 @@
   "pollMs": 5000,
   "latestVersion": "0.1.30",
   "minimumVersion": "0.1.29",
-  "updateRequiredMessage": "Root Cockpit 0.1.29 is required: draggable multi-card Feature Deck HUD and branded load-in.",
+  "updateRequiredMessage": "Root Cockpit 0.1.30 is available: resizable HUD cards, smoother auto-auth boot, and fixed Settings/Security controls.",
   "profileUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/profiles",
-  "latest": "0.1.29",
+  "latest": "0.1.30",
   "minimum": "0.1.29",
   "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.30",
   "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.30/latest.json"
