@@ -7,11 +7,11 @@
   "pollMs": 5000,
   "latestVersion": "0.1.33",
   "minimumVersion": "0.1.33",
-  "updateRequiredMessage": "Root Cockpit 0.1.33 adds profile-routed Root Chat for Caden, Virgil, and Bryan cockpit lanes.",
+  "updateRequiredMessage": "Root Cockpit 0.1.33 is required. This release adds profile-routed Root Chat for Caden, Virgil, and Bryan cockpit lanes, with correct env/SOUL wiring and per-operator send locks.",
   "profileUrl": "https://recreation-mesh-championships-role.trycloudflare.com/cockpit/profiles",
   "latest": "0.1.33",
   "minimum": "0.1.33",
   "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.33",
   "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.33/latest.json",
-  "message": "Root Cockpit 0.1.32 is required. This release replaces the startup sequence with one full-screen space-flight boot into the globe, removes duplicate loading/login/update flicker, limits text selection to search, adds 12H/24H clock format, fixes Mission Brief toggle behavior, and corrects save-password switch visuals."
+  "message": "Root Cockpit 0.1.33 is required. This release adds profile-routed Root Chat for Caden, Virgil, and Bryan cockpit lanes, with correct env/SOUL wiring and per-operator send locks."
 }
