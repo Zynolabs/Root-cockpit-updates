@@ -6,11 +6,11 @@
   "actionUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.50",
-  "minimumVersion": "0.1.50",
-  "updateRequiredMessage": "Root Cockpit 0.1.50 is required. This release restores the 0.1.47 globe/load-in visual baseline and only smooths the real globe camera motion.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.50",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.50/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.50/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.50/Root-Cockpit_0.1.50_aarch64.dmg"
+  "latestVersion": "0.1.51",
+  "minimumVersion": "0.1.51",
+  "updateRequiredMessage": "Root Cockpit 0.1.51 is required. This release repairs installed-client profile loading without changing the restored 0.1.47 globe/load-in baseline.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.51",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.51/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.51/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.51/Root-Cockpit_0.1.51_aarch64.dmg"
 }
