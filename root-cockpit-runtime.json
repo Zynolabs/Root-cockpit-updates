@@ -6,11 +6,11 @@
   "actionUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.46",
-  "minimumVersion": "0.1.46",
-  "updateRequiredMessage": "Root Cockpit 0.1.46 is required. This release smooths the boot overlay, removes the duplicate/fake loading globe, and fixes border-induced zoom lag on the map.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.46",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.46/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.46/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.46/Root-Cockpit_0.1.46_aarch64.dmg"
+  "latestVersion": "0.1.47",
+  "minimumVersion": "0.1.47",
+  "updateRequiredMessage": "Root Cockpit 0.1.47 is required. This release adds the real globe fly-through intro, fixes the settings ON/OFF switch, and preserves zoom performance.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.47",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.47/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.47/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.47/Root-Cockpit_0.1.47_aarch64.dmg"
 }
