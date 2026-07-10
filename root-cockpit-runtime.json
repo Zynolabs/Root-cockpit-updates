@@ -6,11 +6,11 @@
   "actionUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.47",
-  "minimumVersion": "0.1.47",
-  "updateRequiredMessage": "Root Cockpit 0.1.47 is required. This release adds the real globe fly-through intro, fixes the settings ON/OFF switch, and preserves zoom performance.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.47",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.47/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.47/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.47/Root-Cockpit_0.1.47_aarch64.dmg"
+  "latestVersion": "0.1.48",
+  "minimumVersion": "0.1.48",
+  "updateRequiredMessage": "Root Cockpit 0.1.48 is required. This release centers the Zynolabs logo in the load-in and smooths the real globe fly-through camera handoff.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.48",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.48/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.48/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.48/Root-Cockpit_0.1.48_aarch64.dmg"
 }
