@@ -1,16 +1,16 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-10T19:09:09Z",
+  "updatedAt": "2026-07-10T19:39:43Z",
   "snapshotUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.45",
-  "minimumVersion": "0.1.45",
-  "updateRequiredMessage": "Root Cockpit 0.1.45 is required. This release adds globe auto-resume controls, zoom-aware map outlines, a proper space-to-Earth launch sequence, and Command Board canvas/layout repairs.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.45",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.45/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.45/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.45/Root-Cockpit_0.1.45_aarch64.dmg"
+  "latestVersion": "0.1.46",
+  "minimumVersion": "0.1.46",
+  "updateRequiredMessage": "Root Cockpit 0.1.46 is required. This release smooths the boot overlay, removes the duplicate/fake loading globe, and fixes border-induced zoom lag on the map.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.46",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.46/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.46/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.46/Root-Cockpit_0.1.46_aarch64.dmg"
 }
