@@ -6,11 +6,11 @@
   "actionUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.53",
-  "minimumVersion": "0.1.53",
-  "updateRequiredMessage": "Root Cockpit 0.1.53 is required. This release widens Documents and Command Board layouts, tightens side rails, compresses rows/header chrome, and makes the workspace dominate horizontal space.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.53",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.53/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.53/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.53/Root-Cockpit_0.1.53_aarch64.dmg"
+  "latestVersion": "0.1.54",
+  "minimumVersion": "0.1.54",
+  "updateRequiredMessage": "Root Cockpit 0.1.54 is required. This release makes the splash camera move directly from approach to the final cockpit POV and forces every app launch to start on Globe.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.54",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.54/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.54/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.54/Root-Cockpit_0.1.54_aarch64.dmg"
 }
