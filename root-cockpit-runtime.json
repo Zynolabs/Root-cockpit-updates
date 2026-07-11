@@ -1,7 +1,7 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-11T22:08:57.357779Z",
+  "updatedAt": "2026-07-11T22:22:30.495554Z",
   "snapshotUrl": "https://cited-fast-trace-batman.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://cited-fast-trace-batman.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://cited-fast-trace-batman.trycloudflare.com/cockpit/profiles",
@@ -11,11 +11,11 @@
     "profileUrl": "http://127.0.0.1:47831/cockpit/profiles"
   },
   "pollMs": 5000,
-  "latestVersion": "0.1.59",
-  "minimumVersion": "0.1.59",
-  "updateRequiredMessage": "Root Cockpit 0.1.59 is required. Runtime now uses the live Mac mini tunnel for remote clients, with local fallback inside the app.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.59",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.59/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.59/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.59/Root-Cockpit_0.1.59_aarch64.dmg"
+  "latestVersion": "0.1.60",
+  "minimumVersion": "0.1.60",
+  "updateRequiredMessage": "Root Cockpit 0.1.60 is required. This release centers the Zynolabs splash logo and masks startup rays behind the globe.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.60",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.60/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.60/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.60/Root-Cockpit_0.1.60_aarch64.dmg"
 }
