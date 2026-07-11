@@ -1,16 +1,16 @@
 {
-  "mode": "remote",
-  "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-11T18:00:45.044752Z",
-  "snapshotUrl": "https://demo-dietary-sublime-starts.trycloudflare.com/cockpit/snapshot",
-  "actionUrl": "https://demo-dietary-sublime-starts.trycloudflare.com/cockpit/actions/request",
-  "profileUrl": "https://demo-dietary-sublime-starts.trycloudflare.com/cockpit/profiles",
+  "mode": "local",
+  "label": "Root Cockpit local Mac mini backend",
+  "updatedAt": "2026-07-11T19:07:43Z",
+  "snapshotUrl": "http://127.0.0.1:47831/cockpit/snapshot",
+  "actionUrl": "http://127.0.0.1:47831/cockpit/actions/request",
+  "profileUrl": "http://127.0.0.1:47831/cockpit/profiles",
   "pollMs": 5000,
   "latestVersion": "0.1.57",
   "minimumVersion": "0.1.57",
-  "updateRequiredMessage": "Root Cockpit 0.1.57 is required. This build cleans up Feature Deck spacing, removes redundant Public Canvas copy, and fixes cramped Documents headers.",
+  "updateRequiredMessage": "Root Cockpit 0.1.57 is required.",
   "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.57",
   "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.57/latest.json",
   "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.57/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.56/Root-Cockpit_0.1.56_aarch64.dmg"
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.57/Root-Cockpit_0.1.57_aarch64.dmg"
 }
