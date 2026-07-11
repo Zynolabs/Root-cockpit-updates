@@ -6,11 +6,11 @@
   "actionUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://emily-careers-interstate-postage.trycloudflare.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.55",
-  "minimumVersion": "0.1.55",
-  "updateRequiredMessage": "Root Cockpit 0.1.55 is required. This build adds a root-level recovery screen for frontend render failures and keeps the runtime/profile watchdog path hardened against grey-screen/profile-service failures.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.55",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.55/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.55/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.55/Root-Cockpit_0.1.55_aarch64.dmg"
+  "latestVersion": "0.1.56",
+  "minimumVersion": "0.1.56",
+  "updateRequiredMessage": "Root Cockpit 0.1.56 is required. This build adds Users client-version visibility, the top-bar profile shortcut to Users, and smooth settings tab transitions.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.56",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.56/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.56/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.56/Root-Cockpit_0.1.56_aarch64.dmg"
 }
