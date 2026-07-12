@@ -11,7 +11,7 @@
     "profileUrl": "http://127.0.0.1:47831/cockpit/profiles"
   },
   "pollMs": 5000,
-  "latestVersion": "0.1.60",
+  "latestVersion": "0.1.61",
   "minimumVersion": "0.1.60",
   "updateRequiredMessage": "Root Cockpit 0.1.60 is required. This release centers the Zynolabs splash logo and masks startup rays behind the globe.",
   "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.60",
