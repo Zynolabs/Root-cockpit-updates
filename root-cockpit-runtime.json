@@ -17,5 +17,7 @@
   "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.60",
   "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.60/latest.json",
   "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.60/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.60/Root-Cockpit_0.1.60_aarch64.dmg"
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.60/Root-Cockpit_0.1.60_aarch64.dmg",
+  "version": "0.1.61",
+  "minimumClientVersion": "0.1.61"
 }
