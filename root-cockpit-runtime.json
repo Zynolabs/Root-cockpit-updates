@@ -1,16 +1,16 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-13T17:29:31.694267Z",
+  "updatedAt": "2026-07-13T17:37:35.037993Z",
   "snapshotUrl": "https://review-directories-representing-plymouth.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://review-directories-representing-plymouth.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://review-directories-representing-plymouth.trycloudflare.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.66",
-  "minimumVersion": "0.1.66",
-  "updateRequiredMessage": "Root Cockpit 0.1.66 is required. This release repairs runtime/profile recovery, keeps the tunnel metadata current, and prevents stale launch configuration from stranding sign-in.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.66",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.66/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.66/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.66/Root-Cockpit_0.1.66_aarch64.dmg"
+  "latestVersion": "0.1.67",
+  "minimumVersion": "0.1.67",
+  "updateRequiredMessage": "Root Cockpit 0.1.67 is required. This release adds the Lead-Gen cockpit section and hardens runtime discovery against stale versioned raw tunnel files.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.67",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.67/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.67/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.67/Root-Cockpit_0.1.67_aarch64.dmg"
 }
