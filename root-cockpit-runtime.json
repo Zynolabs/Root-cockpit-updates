@@ -1,16 +1,16 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-13T05:38:29.792180Z",
+  "updatedAt": "2026-07-13T15:11:03.126352Z",
   "snapshotUrl": "https://cycle-draw-illustration-photograph.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://cycle-draw-illustration-photograph.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://cycle-draw-illustration-photograph.trycloudflare.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.64",
-  "minimumVersion": "0.1.64",
-  "updateRequiredMessage": "Root Cockpit 0.1.64 is required. This release repairs runtime/profile recovery, keeps the tunnel metadata current, and prevents stale launch configuration from stranding sign-in.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.64",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.64/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.64/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.64/Root-Cockpit_0.1.64_aarch64.dmg"
+  "latestVersion": "0.1.65",
+  "minimumVersion": "0.1.65",
+  "updateRequiredMessage": "Root Cockpit 0.1.65 is required. This release removes GitHub API rate-limit dependency from runtime/profile discovery so remote operators can reach the profile service.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.65",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.65/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.65/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.65/Root-Cockpit_0.1.65_aarch64.dmg"
 }
