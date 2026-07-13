@@ -1,16 +1,16 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-13T19:48:11.736099Z",
+  "updatedAt": "2026-07-13T22:09:58.110002Z",
   "snapshotUrl": "https://review-directories-representing-plymouth.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://review-directories-representing-plymouth.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://review-directories-representing-plymouth.trycloudflare.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.71",
-  "minimumVersion": "0.1.71",
-  "updateRequiredMessage": "Root Cockpit 0.1.71 is required. This release cleans task surfaces, spacing, and cockpit copy density.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.71",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.71/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.71/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.71/Root-Cockpit_0.1.71_aarch64.app.tar.gz"
+  "latestVersion": "0.1.72",
+  "minimumVersion": "0.1.72",
+  "updateRequiredMessage": "Root Cockpit 0.1.72 is required. This release restores the visible global Your Tasks section while keeping the cleaned task/run behavior.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.72",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.72/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.72/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.72/Root-Cockpit_0.1.72_aarch64.app.tar.gz"
 }
