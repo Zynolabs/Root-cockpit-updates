@@ -1,16 +1,16 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini tunnel",
-  "updatedAt": "2026-07-13T15:21:15.099584Z",
+  "updatedAt": "2026-07-13T17:28:16.466639Z",
   "snapshotUrl": "https://cycle-draw-illustration-photograph.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://cycle-draw-illustration-photograph.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://cycle-draw-illustration-photograph.trycloudflare.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.65",
-  "minimumVersion": "0.1.65",
-  "updateRequiredMessage": "Root Cockpit 0.1.65 is required. This release removes GitHub API rate-limit dependency from runtime/profile discovery so remote operators can reach the profile service.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.65",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.65/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.65/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.65/Root-Cockpit_0.1.65_aarch64.dmg"
+  "latestVersion": "0.1.66",
+  "minimumVersion": "0.1.66",
+  "updateRequiredMessage": "Root Cockpit 0.1.66 is required. This release adds the Lead-Gen cockpit section for Spark-powered prospect research setup and run staging.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.66",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.66/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.66/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.66/Root-Cockpit_0.1.66_aarch64.dmg"
 }
