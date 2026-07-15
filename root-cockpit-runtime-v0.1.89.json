@@ -1,7 +1,7 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini direct backend",
-  "updatedAt": "2026-07-15T03:10:10.953340Z",
+  "updatedAt": "2026-07-15T03:12:11.278036Z",
   "snapshotUrl": "http://192.168.0.205:47831/cockpit/snapshot",
   "actionUrl": "http://192.168.0.205:47831/cockpit/actions/request",
   "profileUrl": "http://192.168.0.205:47831/cockpit/profiles",
