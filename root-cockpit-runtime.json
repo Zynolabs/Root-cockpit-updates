@@ -1,7 +1,7 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini backend via Cloudflare HTTPS",
-  "updatedAt": "2026-07-16T23:44:48.027259Z",
+  "updatedAt": "2026-07-16T23:45:18.252233Z",
   "snapshotUrl": "https://symphony-replaced-workforce-facial.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://symphony-replaced-workforce-facial.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://symphony-replaced-workforce-facial.trycloudflare.com/cockpit/profiles",
