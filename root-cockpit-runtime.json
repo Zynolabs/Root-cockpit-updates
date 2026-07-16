@@ -1,7 +1,7 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini backend via Cloudflare HTTPS",
-  "updatedAt": "2026-07-16T23:17:52.450511Z",
+  "updatedAt": "2026-07-16T23:18:16.873913Z",
   "snapshotUrl": "https://column-guests-code-points.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://column-guests-code-points.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://column-guests-code-points.trycloudflare.com/cockpit/profiles",
