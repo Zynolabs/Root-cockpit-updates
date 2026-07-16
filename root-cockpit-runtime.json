@@ -1,7 +1,7 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini backend via Cloudflare HTTPS",
-  "updatedAt": "2026-07-16T23:01:37.923972Z",
+  "updatedAt": "2026-07-16T23:02:08.158190Z",
   "snapshotUrl": "https://sole-cfr-techno-memorial.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://sole-cfr-techno-memorial.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://sole-cfr-techno-memorial.trycloudflare.com/cockpit/profiles",
