@@ -1,7 +1,7 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini backend via Cloudflare HTTPS",
-  "updatedAt": "2026-07-16T23:37:37.800886Z",
+  "updatedAt": "2026-07-16T23:39:09.338238Z",
   "snapshotUrl": "https://handy-socket-shops-fun.trycloudflare.com/cockpit/snapshot",
   "actionUrl": "https://handy-socket-shops-fun.trycloudflare.com/cockpit/actions/request",
   "profileUrl": "https://handy-socket-shops-fun.trycloudflare.com/cockpit/profiles",
