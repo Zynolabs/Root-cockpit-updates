@@ -1,16 +1,16 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini backend via Cloudflare HTTPS",
-  "updatedAt": "2026-07-17T22:38:39.500803Z",
+  "updatedAt": "2026-07-17T22:44:06.404791Z",
   "snapshotUrl": "https://cockpit.zynolabs.com/cockpit/snapshot",
   "actionUrl": "https://cockpit.zynolabs.com/cockpit/actions/request",
   "profileUrl": "https://cockpit.zynolabs.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.110",
-  "minimumVersion": "0.1.110",
-  "updateRequiredMessage": "Root Cockpit 0.1.110 is required. Update through the signed Root Cockpit updater.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.110",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.110/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.110/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.110/Root-Cockpit.app.tar.gz"
+  "latestVersion": "0.1.111",
+  "minimumVersion": "0.1.111",
+  "updateRequiredMessage": "Root Cockpit 0.1.111 is required. Update through the signed Root Cockpit updater.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.111",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.111/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.111/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.111/Root-Cockpit.app.tar.gz"
 }
