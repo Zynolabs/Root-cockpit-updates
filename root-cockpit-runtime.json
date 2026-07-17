@@ -1,16 +1,16 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini backend via Cloudflare HTTPS",
-  "updatedAt": "2026-07-17T15:00:40.645291Z",
-  "snapshotUrl": "https://mixture-arthritis-pursuit-manufacturers.trycloudflare.com/cockpit/snapshot",
-  "actionUrl": "https://mixture-arthritis-pursuit-manufacturers.trycloudflare.com/cockpit/actions/request",
-  "profileUrl": "https://mixture-arthritis-pursuit-manufacturers.trycloudflare.com/cockpit/profiles",
+  "updatedAt": "2026-07-17T15:12:14.409327Z",
+  "snapshotUrl": "https://cockpit.zynolabs.com/cockpit/snapshot",
+  "actionUrl": "https://cockpit.zynolabs.com/cockpit/actions/request",
+  "profileUrl": "https://cockpit.zynolabs.com/cockpit/profiles",
   "pollMs": 5000,
-  "latestVersion": "0.1.99",
-  "minimumVersion": "0.1.99",
-  "updateRequiredMessage": "Root Cockpit 0.1.99 is required. This release repairs runtime/profile recovery, keeps the tunnel metadata current, and prevents stale launch configuration from stranding sign-in.",
-  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.99",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.99/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.99/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.99/Root-Cockpit_0.1.99_aarch64.app.tar.gz"
+  "latestVersion": "0.1.100",
+  "minimumVersion": "0.1.100",
+  "updateRequiredMessage": "Root Cockpit 0.1.100 is required. Update through the signed Root Cockpit updater.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.1.100",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.100/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.100/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.100/Root-Cockpit_0.1.100_aarch64.app.tar.gz"
 }
