@@ -1,7 +1,7 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini backend via Cloudflare HTTPS",
-  "updatedAt": "2026-07-18T16:45:41Z",
+  "updatedAt": "2026-07-18T16:56:02Z",
   "snapshotUrl": "https://cockpit.zynolabs.com/cockpit/snapshot",
   "actionUrl": "https://cockpit.zynolabs.com/cockpit/actions",
   "profileUrl": "https://cockpit.zynolabs.com/cockpit/profiles",
@@ -9,10 +9,10 @@
   "profileHeartbeatUrl": "https://cockpit.zynolabs.com/cockpit/profiles/heartbeat",
   "healthUrl": "https://cockpit.zynolabs.com/health",
   "statusUrl": "https://cockpit.zynolabs.com/health",
-  "latestVersion": "0.1.120",
-  "minimumVersion": "0.1.120",
-  "updateMessage": "Root Cockpit 0.1.120 closes initial Command Board hydration races, persists Root Chat context until delivery, and keeps every active workbench job visible to polling.",
+  "latestVersion": "0.1.121",
+  "minimumVersion": "0.1.121",
+  "updateMessage": "Root Cockpit 0.1.121 blocks Command Board autosave while collaborative conflict resolution is pending and adds a regression gate for the overwrite path.",
   "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/latest/download/latest.json",
   "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/latest/download/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.120/Root.Cockpit_0.1.120_aarch64.app.tar.gz"
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.121/Root.Cockpit_0.1.121_aarch64.app.tar.gz"
 }
