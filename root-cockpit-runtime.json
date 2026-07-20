@@ -1,18 +1,16 @@
 {
   "mode": "remote",
   "label": "Root Cockpit Mac mini backend via Cloudflare HTTPS",
-  "updatedAt": "2026-07-18T16:56:02Z",
+  "updatedAt": "2026-07-20T15:36:43.886964Z",
   "snapshotUrl": "https://cockpit.zynolabs.com/cockpit/snapshot",
-  "actionUrl": "https://cockpit.zynolabs.com/cockpit/actions",
+  "actionUrl": "https://cockpit.zynolabs.com/cockpit/actions/request",
   "profileUrl": "https://cockpit.zynolabs.com/cockpit/profiles",
-  "profileLoginUrl": "https://cockpit.zynolabs.com/cockpit/profiles/login",
-  "profileHeartbeatUrl": "https://cockpit.zynolabs.com/cockpit/profiles/heartbeat",
-  "healthUrl": "https://cockpit.zynolabs.com/health",
-  "statusUrl": "https://cockpit.zynolabs.com/health",
-  "latestVersion": "0.1.121",
-  "minimumVersion": "0.1.121",
-  "updateMessage": "Root Cockpit 0.1.121 blocks Command Board autosave while collaborative conflict resolution is pending and adds a regression gate for the overwrite path.",
-  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/latest/download/latest.json",
-  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/latest/download/latest.json",
-  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.1.121/Root.Cockpit_0.1.121_aarch64.app.tar.gz"
+  "pollMs": 5000,
+  "latestVersion": "0.2.0",
+  "minimumVersion": "0.1.126",
+  "updateRequiredMessage": "Root Cockpit 0.2.0 is required. Update through the signed Root Cockpit updater.",
+  "releaseUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/tag/root-cockpit-v0.2.0",
+  "updateManifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.2.0/latest.json",
+  "manifestUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.2.0/latest.json",
+  "downloadUrl": "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v0.2.0/Root.Cockpit_0.2.0_aarch64.app.tar.gz"
 }
