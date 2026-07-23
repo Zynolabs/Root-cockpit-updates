@@ -30,7 +30,9 @@ jobs:
           Invoke-WebRequest -Uri $env:SOURCE_URL -OutFile source.7z
           & 7z x source.7z "-p$env:SOURCE_ARCHIVE_KEY" -y
           if ($LASTEXITCODE -ne 0) { throw 'Encrypted source archive extraction failed' }
-          & tar -xf root-cockpit.tar
+          $sourceTar = Get-ChildItem -Recurse -Filter 'root-cockpit-0.2.27.tar' | Select-Object -First 1
+          if (-not $sourceTar) { throw 'Decrypted source tar is missing' }
+          & tar -xf $sourceTar.FullName
           if ($LASTEXITCODE -ne 0) { throw 'Source tar extraction failed' }
           if (-not (Test-Path root-cockpit/package.json)) { throw 'Source archive is incomplete' }
       - uses: actions/setup-node@v4
