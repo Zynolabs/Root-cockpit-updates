@@ -1,0 +1,77 @@
+name: Root Cockpit Windows release install smoke
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Published Root Cockpit semantic version
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  install-smoke:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - name: Download and verify published installer
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $version = '${{ inputs.version }}'
+          $url = "https://github.com/Zynolabs/Root-cockpit-updates/releases/download/root-cockpit-v$version/Root.Cockpit_${version}_x64-setup.exe"
+          Invoke-WebRequest -Uri $url -OutFile root-cockpit-setup.exe
+          $hash = (Get-FileHash root-cockpit-setup.exe -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ((Get-Item root-cockpit-setup.exe).Length -lt 1000000) { throw 'Installer is implausibly small' }
+          "installer_url=$url" | Out-File -FilePath $env:GITHUB_ENV -Append
+          "installer_sha256=$hash" | Out-File -FilePath $env:GITHUB_ENV -Append
+
+      - name: Silent install and native launch smoke
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $version = '${{ inputs.version }}'
+          $installer = (Resolve-Path root-cockpit-setup.exe).Path
+          $install = Start-Process -FilePath $installer -ArgumentList '/S' -Wait -PassThru
+          if ($install.ExitCode -ne 0) { throw "NSIS install failed with exit $($install.ExitCode)" }
+
+          $candidates = @(
+            "$env:LOCALAPPDATA\Root Cockpit\root_cockpit.exe",
+            "$env:LOCALAPPDATA\Programs\Root Cockpit\root_cockpit.exe",
+            "$env:ProgramFiles\Root Cockpit\root_cockpit.exe"
+          )
+          $exe = $candidates | Where-Object { Test-Path $_ } | Select-Object -First 1
+          if (-not $exe) {
+            $exe = Get-ChildItem -Path $env:LOCALAPPDATA -Filter root_cockpit.exe -File -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1 -ExpandProperty FullName
+          }
+          if (-not $exe) { throw 'Installed root_cockpit.exe was not found' }
+
+          $productVersion = (Get-Item $exe).VersionInfo.ProductVersion
+          if (-not $productVersion.StartsWith($version)) { throw "Installed product version $productVersion does not match $version" }
+
+          $app = Start-Process -FilePath $exe -WorkingDirectory (Split-Path $exe) -PassThru
+          Start-Sleep -Seconds 20
+          $app.Refresh()
+          if ($app.HasExited) { throw "Installed app exited during smoke test with code $($app.ExitCode)" }
+          $process = Get-Process -Id $app.Id
+          if ($process.MainWindowHandle -eq 0) { throw 'Installed app has no native window handle' }
+
+          [ordered]@{
+            ok = $true
+            version = $version
+            installer_sha256 = $env:installer_sha256
+            executable = $exe
+            product_version = $productVersion
+            process_id = $process.Id
+            main_window_handle = $process.MainWindowHandle
+            main_window_title = $process.MainWindowTitle
+          } | ConvertTo-Json | Set-Content windows-install-smoke.json
+          Stop-Process -Id $process.Id -Force
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: root-cockpit-windows-install-smoke-${{ inputs.version }}-${{ github.run_id }}
+          path: windows-install-smoke.json
+          if-no-files-found: error
