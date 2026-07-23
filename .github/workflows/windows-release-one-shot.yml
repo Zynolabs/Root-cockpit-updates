@@ -1,0 +1,79 @@
+name: One-shot encrypted Root Cockpit Windows build
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_url:
+        description: Encrypted source archive URL
+        required: true
+        type: string
+      version:
+        description: Root Cockpit version
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - name: Download and decrypt exact source revision
+        shell: pwsh
+        env:
+          SOURCE_ARCHIVE_KEY: ${{ secrets.ROOT_COCKPIT_SOURCE_ARCHIVE_KEY }}
+          SOURCE_URL: ${{ inputs.source_url }}
+        run: |
+          if (-not $env:SOURCE_ARCHIVE_KEY) { throw 'Encrypted source archive key is unavailable' }
+          Invoke-WebRequest -Uri $env:SOURCE_URL -OutFile source.7z
+          & 7z x source.7z "-p$env:SOURCE_ARCHIVE_KEY" -y
+          if ($LASTEXITCODE -ne 0) { throw 'Encrypted source archive extraction failed' }
+          & tar -xf root-cockpit.tar
+          if ($LASTEXITCODE -ne 0) { throw 'Source tar extraction failed' }
+          if (-not (Test-Path root-cockpit/package.json)) { throw 'Source archive is incomplete' }
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: root-cockpit/package-lock.json
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-pc-windows-msvc
+      - name: Install and verify exact release source
+        working-directory: root-cockpit
+        shell: pwsh
+        env:
+          ROOT_COCKPIT_RELEASE_TAG: root-cockpit-v${{ inputs.version }}
+        run: |
+          npm ci
+          npm run verify:release-version
+          npm run typecheck
+          npm run test:core
+      - name: Build signed Windows x64 installer
+        working-directory: root-cockpit
+        shell: pwsh
+        env:
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.ROOT_COCKPIT_TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.ROOT_COCKPIT_TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+          VITE_ROOT_COCKPIT_RUNTIME_CONFIG_URL: https://github.com/Zynolabs/Root-cockpit-updates/releases/latest/download/root-cockpit-runtime.json
+        run: |
+          npm run tauri -- build --config src-tauri/tauri.windows.conf.json --target x86_64-pc-windows-msvc --ci --bundles nsis
+      - name: Verify Windows product version and architecture
+        working-directory: root-cockpit
+        shell: pwsh
+        run: |
+          $expected = (Get-Content package.json | ConvertFrom-Json).version
+          $installer = Get-ChildItem src-tauri/target/x86_64-pc-windows-msvc/release/bundle/nsis -Filter *.exe | Select-Object -First 1
+          if (-not $installer) { throw 'Windows installer missing' }
+          if ($installer.VersionInfo.ProductVersion -notlike "$expected*") { throw "Windows product version mismatch: $($installer.VersionInfo.ProductVersion)" }
+          if (-not [Environment]::Is64BitOperatingSystem) { throw 'Windows runner is not x64' }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: root-cockpit-windows-0.2.27-${{ github.run_id }}
+          path: |
+            root-cockpit/src-tauri/target/x86_64-pc-windows-msvc/release/bundle/nsis/*.exe
+            root-cockpit/src-tauri/target/x86_64-pc-windows-msvc/release/bundle/nsis/*.sig
+          if-no-files-found: error
+          retention-days: 1
